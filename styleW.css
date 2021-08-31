@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+#nav-bar {
+    float: right;
+    margin: 50px;
+    word-spacing: 30px;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.logo-img {
+    margin:50px;
+    color: white;
+}
+
+
+.container {
+    position: fixed;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+
+ul {
+
+    list-style-type: none;
+    margin:0;
+   
+
+  }
+  
+  li {
+    display : inline;
+    font-size: 25px;
+    color: white;
+    line-height: 1.5;
+  }
+  
+
+  a {
+
+    text-decoration: none;
+    color:white;
+  }
+
+  h1 {
+
+      color: white;
+      font-size: 50px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      
+  }
+
+
+.notes {
+
+    margin-top: 200px;
+    line-height: 100px;
+    text-align: center ;
+    word-spacing: 2px;
+    margin-bottom: 150px;
+    
+    
+}
+
+
+
+  footer {
+
+    height: 500px;
+    background-color: #D3D3D3;
+    width: 100%;
+    padding: 100px 100px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.all-rights-reserved {
+
+  font-size: 15px;
+  font-family: 'Lora', serif;
+
+}
+
+
+.andstudio {
+
+  color: grey;
+  font-size: 13px;
+  font-family: 'Lora', serif;
+
+}
+
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.socials {
+
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+    
+  }
